@@ -1,0 +1,50 @@
+{
+    "name": "laravel/lumen",
+    "description": "The Laravel Lumen Framework.",
+    "keywords": ["framework", "laravel", "lumen"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "7.0.*",
+        "laravel/lumen-framework": "5.5.*",
+        "vlucas/phpdotenv": "~2.2",
+        "firebase/php-jwt": "^5.0",
+        "illuminate/mail": "^5.5",
+        "phpmailer/phpmailer": "^6.0",
+        "predis/predis": "^1.1",
+        "illuminate/redis": "^5.5",
+        "aws/aws-sdk-php": "3.61",
+        "league/csv": "^8.0",
+        "doctrine/dbal": "^2.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "~6.0",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/UtilHelper.php",
+            "app/Helpers/MathHelper.php",
+            "app/Helpers/TranslateHelper.php"
+        ]
+        
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/",
+            "database/"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "optimize-autoloader": true
+}

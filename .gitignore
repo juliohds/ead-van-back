@@ -1,0 +1,11 @@
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+composer.lock
+nohup*
+storage/logs/*
+nohup.out
+composer.lock
+npm-debug.log

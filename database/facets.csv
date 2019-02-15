@@ -1,0 +1,18 @@
+type;title;synonymous;option_title;option_synonymous;ids;facet_type
+discipline;Disciplina;Componentes Curriculares,Disciplina,Componente Curricular,Matéria;;;;
+;;;Português;Lingua Portugesa;;
+;;;Matemática;;;
+;;;Ciências;;;
+media;Tipos de Mídias;Midia, Tipo de Midia;;;;
+;;;Jogo;Game;;
+;;;Site;Pagina Web,Portal;;
+;;;Vídeo;Animação, Filme;;
+;;;Áudio;Som;;
+year;Etapas, Anos e Modalidades;Anos, Séries, Modalidades;;;;
+;;;1o;F1;;
+;;;2o;F2;;
+;;;3o;F3;;
+;Oferecido Por;;;;;course
+;;;Xilico;;;
+;;;Joana;;;
+;;;Joeloy;;;
